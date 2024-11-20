@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitrine - Abonnements et Packs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#prices">Tarifs</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Bienvenue sur notre site</h1>
+      <p>Découvrez nos abonnements et packs adaptés à vos besoins.</p>
+      <a href="#prices" class="cta">Voir nos offres</a>
+    </section>
+
+    <section id="prices" class="pricing">
+      <h2>Nos Offres</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Abonnement Basic</h3>
+          <p>Idéal pour commencer</p>
+          <p class="price">10€/mois</p>
+        </div>
+        <div class="card">
+          <h3>Pack Standard</h3>
+          <p>Un excellent rapport qualité/prix</p>
+          <p class="price">25€/mois</p>
+        </div>
+        <div class="card">
+          <h3>Abonnement Premium</h3>
+          <p>Pour les besoins avancés</p>
+          <p class="price">50€/mois</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>À propos</h2>
+      <p>Nous proposons des solutions simples et efficaces pour répondre à vos attentes.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contactez-nous</h2>
+      <form>
+        <input type="text" placeholder="Votre nom" required>
+        <input type="email" placeholder="Votre email" required>
+        <textarea placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 - Votre entreprise</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
